@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+* {
+    scroll-behavior: smooth;
+    font-family: 'Silkscreen', cursive;
+}
+body {
+    background: black;
+    color: whitesmoke;
+}
+header {
+    background: black;
+    padding-top: 20%;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+}
+header ul li {
+    list-style: none;
+    margin: 3px;
+}
+header ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+header ul li a:hover {
+    background: #232323;
+    color: whitesmoke;
+}
+header ul li a.active {
+    background: #232323;
+    color: whitesmoke;
+}
